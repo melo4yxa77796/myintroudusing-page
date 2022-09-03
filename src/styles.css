@@ -70,11 +70,7 @@ body {
     text-align: center !important;
     font-size: 96px;
   }
-  .container {
-    padding-left: 0px;
-    padding-right: 0px;
-    width: 100%;
-  }
+
   .primary-link {
     border-radius: 4px;
     padding: 20px 15px;
@@ -95,6 +91,4 @@ body {
   .mb-3 {
     text-align: start;
   }
-  .container-fluid{
-    max-width: 720px;
-  }
+  
