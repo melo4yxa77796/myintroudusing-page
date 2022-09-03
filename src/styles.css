@@ -1,5 +1,5 @@
 body {
-    margin-top: 100px;
+    margin: 100px 0;
   }
   h1 {
     font-size: 96px;
@@ -44,6 +44,7 @@ body {
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
   }
+  .contact-Link:hover{color:white;}
   p {
   
     border-radius: 4px;
@@ -59,7 +60,9 @@ body {
     font-size: 28px;
     text-decoration: none;
   }
-  
+  .email-Link:hover{
+      text-decoration:underline ;
+  }
   .about-paragraphs {
     margin: 30px 0;
   }
@@ -82,6 +85,7 @@ body {
   }
   .primary-link:hover {
     text-decoration: none;
+    color:white;
   }
   
   .navbar-toggler {
@@ -105,5 +109,6 @@ h2{
     text-align: center;
     margin: 0 20px;
 }
+.name-link{text-align: center;}
   }
   
